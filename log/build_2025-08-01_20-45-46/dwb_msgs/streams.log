@@ -1,0 +1,424 @@
+[0.012s] Invoking command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/dwb_msgs
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.408s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.418s] -- Detecting CXX compile features
+[0.419s] -- Detecting CXX compile features - done
+[0.422s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.622s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.712s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.810s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.818s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.831s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.896s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.936s] -- Found nav_2d_msgs: 1.1.18 (/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.959s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.986s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.600s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.547s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.671s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.671s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.671s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.671s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.720s] -- Found PythonExtra: .so  
+[4.099s] -- Configuring done
+[4.365s] -- Generating done
+[4.450s] -- Build files have been written to: /home/naveengnanasekar/dev_ws/build/dwb_msgs
+[4.561s] Invoked command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/dwb_msgs
+[4.562s] Invoking command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/dwb_msgs -- -j8 -l8
+[4.797s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.854s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.875s] [  2%] Built target ament_cmake_python_symlink_dwb_msgs
+[6.267s] running egg_info
+[6.269s] creating dwb_msgs.egg-info
+[6.270s] writing dwb_msgs.egg-info/PKG-INFO
+[6.271s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[6.271s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[6.272s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.278s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.279s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.408s] [  2%] Built target ament_cmake_python_build_dwb_msgs_egg
+[8.306s] [  2%] Built target dwb_msgs__cpp
+[8.360s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.362s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.372s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.301s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[9.302s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[9.304s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[9.304s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[9.307s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[9.527s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[9.567s] [ 12%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[9.618s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[9.670s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[10.012s] [ 15%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[10.294s] [ 15%] Built target dwb_msgs__rosidl_generator_c
+[10.346s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.352s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.380s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.704s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[11.706s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[11.730s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[11.825s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[12.562s] [ 24%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[13.283s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[13.331s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[13.390s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[13.575s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[13.749s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[13.863s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[13.908s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[14.045s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[14.094s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[14.189s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[14.206s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[14.412s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[14.665s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[14.793s] [ 38%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[14.860s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[14.953s] [ 41%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[14.996s] [ 42%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[15.006s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[15.088s] [ 44%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[15.284s] [ 45%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[15.348s] [ 45%] Built target dwb_msgs__rosidl_typesupport_c
+[15.421s] [ 46%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[15.454s] [ 47%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[15.555s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[15.608s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[15.721s] [ 50%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[15.878s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[15.984s] [ 52%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[15.987s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[16.207s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[16.223s] [ 55%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[16.579s] [ 56%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[16.872s] [ 57%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[16.932s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[17.038s] [ 60%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.262s] [ 60%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[17.311s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[17.317s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[17.977s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[18.458s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[18.722s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[18.994s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[19.149s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[19.838s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[20.058s] [ 69%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[20.182s] [ 70%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[20.200s] [ 71%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[20.353s] [ 71%] Built target dwb_msgs__rosidl_typesupport_cpp
+[20.424s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[20.530s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[20.871s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[20.936s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[22.229s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[22.434s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[23.789s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[23.806s] [ 80%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.410s] [ 80%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[24.585s] [ 81%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.047s] [ 81%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[25.373s] [ 82%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[25.861s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[25.995s] [ 82%] Built target dwb_msgs
+[26.116s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.217s] [ 83%] Built target dwb_msgs__py
+[31.285s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[31.702s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[32.089s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[32.410s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[32.843s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[33.160s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[33.447s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[33.721s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[34.058s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[34.355s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__rosidl_generator_py.so[0m
+[34.586s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[34.638s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.054s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.217s] [ 95%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35.306s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[35.676s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.800s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[35.844s] [ 98%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.185s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.443s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[36.521s] Invoked command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/dwb_msgs -- -j8 -l8
+[36.524s] Invoking command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/dwb_msgs
+[36.570s] -- Install configuration: ""
+[36.576s] -- Execute custom install script
+[36.577s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[36.638s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[36.691s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[36.732s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[36.772s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[36.799s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[36.833s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[36.861s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[36.888s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[36.917s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[36.948s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[36.983s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[37.010s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[37.042s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[37.066s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[37.091s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.113s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[37.139s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[37.173s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[37.201s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[37.231s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[37.256s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[37.295s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[37.328s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[37.354s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[37.394s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[37.411s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[37.440s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[37.460s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[37.478s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[37.500s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[37.518s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[37.538s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[37.555s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[37.572s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[37.586s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[37.603s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[37.618s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[37.636s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[37.652s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[37.670s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[37.688s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[37.706s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[37.723s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[37.741s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.781s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[37.792s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[37.812s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[37.835s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[37.855s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[37.889s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[37.914s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[37.944s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[37.962s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[37.986s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[38.012s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[38.029s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[38.051s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[38.071s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[38.105s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[38.131s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[38.157s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[38.185s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[38.211s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[38.236s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[38.266s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[38.294s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[38.316s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[38.346s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[38.372s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[38.392s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[38.407s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[38.428s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[38.450s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[38.475s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[38.505s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[38.519s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[38.546s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[38.575s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[38.595s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[38.618s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[38.636s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[38.651s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[38.668s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[38.683s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[38.700s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[38.720s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[38.741s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[38.759s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[38.784s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[38.810s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[38.828s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[38.854s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[38.873s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[38.895s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[38.914s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[38.938s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[38.958s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[38.984s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[39.009s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[39.027s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.045s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[39.064s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[39.088s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[39.111s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[39.137s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[39.157s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[39.176s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[39.195s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[39.211s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[39.228s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.243s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[39.259s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[39.278s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[39.295s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[39.313s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[39.330s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[39.347s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[39.366s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[39.383s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[39.402s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[39.424s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[39.446s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[39.473s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[39.502s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[39.530s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[39.565s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[39.597s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.18-py3.10.egg-info/PKG-INFO
+[39.630s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.18-py3.10.egg-info/SOURCES.txt
+[39.660s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.18-py3.10.egg-info/dependency_links.txt
+[39.693s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.18-py3.10.egg-info/top_level.txt
+[39.732s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[39.764s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[39.786s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.809s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.834s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.858s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.881s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.907s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[39.932s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[39.958s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[39.989s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[40.009s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[40.028s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[40.048s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[40.065s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[40.089s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[40.113s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[40.130s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[40.152s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[40.168s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[40.198s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[40.219s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[40.238s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[40.258s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[40.279s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[40.297s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[40.318s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[40.341s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[40.358s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.359s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.360s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.360s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[40.389s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[40.410s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[40.429s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[40.452s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[40.472s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[40.493s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[40.513s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[40.531s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[40.552s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[40.572s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[40.588s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[40.609s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[40.628s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[40.650s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[40.668s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[40.693s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[40.713s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[40.732s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[40.756s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[40.779s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[40.806s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[40.826s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[40.849s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[40.864s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[40.885s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[40.903s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[40.919s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[40.941s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[40.956s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[40.973s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[40.989s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[41.012s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[41.024s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[41.038s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[41.057s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[41.079s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[41.104s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[41.124s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[41.146s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[41.164s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[41.189s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.205s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.225s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[41.252s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[41.277s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[41.295s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[41.315s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[41.334s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[41.350s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[41.373s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[41.373s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[41.373s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[41.373s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[41.373s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[41.373s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[41.373s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[41.374s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[41.374s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[41.374s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[41.375s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[41.376s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[41.376s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[41.377s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[41.454s] Listing '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[41.455s] Listing '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[41.455s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py'...
+[41.460s] Listing '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py'...
+[41.461s] Compiling '/home/naveengnanasekar/dev_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py'...
+[41.471s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[41.473s] -- Set runtime path of "/home/naveengnanasekar/dev_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[41.473s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[41.474s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[41.474s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[41.475s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[41.475s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[41.476s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[41.476s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[41.476s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[41.477s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.478s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[41.478s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[41.479s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[41.479s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.480s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[41.480s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[41.481s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[41.481s] -- Installing: /home/naveengnanasekar/dev_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[41.490s] Invoked command in '/home/naveengnanasekar/dev_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs:/home/naveengnanasekar/dev_ws/install/my_robot:/home/naveengnanasekar/dev_ws/install/my_bot:/opt/ros/humble LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/dwb_msgs

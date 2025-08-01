@@ -1,3 +1,18 @@
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/config/empty.yaml
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/gazebo_control.xacro
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/robot.urdf.xacro
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/robot_core.xacro
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/worlds/empty.world
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/base_link.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/turret.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel1.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel2.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel3.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel4.STL
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
 /home/naveengnanasekar/dev_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
 /home/naveengnanasekar/dev_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
@@ -13,4 +28,3 @@
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/package.xml
-/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot//launch/rsp.launch.py

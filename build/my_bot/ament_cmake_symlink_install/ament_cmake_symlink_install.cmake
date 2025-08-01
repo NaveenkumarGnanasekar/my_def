@@ -316,6 +316,9 @@ ament_cmake_symlink_install_directory("/home/naveengnanasekar/dev_ws/src/my_robo
 # install(DIRECTORY "meshes/" "DESTINATION" "share/my_bot/meshes")
 ament_cmake_symlink_install_directory("/home/naveengnanasekar/dev_ws/src/my_robot" DIRECTORY "meshes/" "DESTINATION" "share/my_bot/meshes")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/my_bot")
+ament_cmake_symlink_install_directory("/home/naveengnanasekar/dev_ws/src/my_robot" DIRECTORY "launch" "DESTINATION" "share/my_bot")
+
 # install(FILES "/home/naveengnanasekar/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/naveengnanasekar/dev_ws/src/my_robot" FILES "/home/naveengnanasekar/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

@@ -1,0 +1,17 @@
+[0.008s] Invoking command in '/home/naveengnanasekar/dev_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/my_robot -- -j8 -l8
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.180s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.180s]   ament_package_xml() package name 'my_robot' in '/package.xml' does not
+[0.180s]   match current PROJECT_NAME 'my_bot'.  You must call project() with the same
+[0.180s]   package name before.
+[0.180s] Call Stack (most recent call first):
+[0.181s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.181s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.181s] 
+[0.181s] [0m
+[0.181s] -- Configuring incomplete, errors occurred!
+[0.181s] See also "/home/naveengnanasekar/dev_ws/build/my_robot/CMakeFiles/CMakeOutput.log".
+[0.183s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.185s] Invoked command in '/home/naveengnanasekar/dev_ws/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/my_robot -- -j8 -l8

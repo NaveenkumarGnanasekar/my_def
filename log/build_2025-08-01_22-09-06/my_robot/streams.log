@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/naveengnanasekar/dev_ws/build/my_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/my_robot
+[0.032s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.161s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.230s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.234s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.235s] -- Added test 'lint_cmake' to check CMake code style
+[0.236s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.238s] -- Added test 'xmllint' to check XML markup files
+[0.239s] -- Configuring done
+[0.244s] -- Generating done
+[0.245s] -- Build files have been written to: /home/naveengnanasekar/dev_ws/build/my_robot
+[0.249s] Invoked command in '/home/naveengnanasekar/dev_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/my_robot
+[0.251s] Invoking command in '/home/naveengnanasekar/dev_ws/build/my_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/my_robot -- -j8 -l8
+[0.289s] Invoked command in '/home/naveengnanasekar/dev_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/my_robot -- -j8 -l8
+[0.300s] Invoking command in '/home/naveengnanasekar/dev_ws/build/my_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/my_robot
+[0.306s] -- Install configuration: ""
+[0.307s] -- Execute custom install script
+[0.307s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/config/empty.yaml
+[0.307s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/gazebo_control.xacro
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/robot.urdf.xacro
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/description/robot_core.xacro
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/worlds/empty.world
+[0.318s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/base_link.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/turret.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel1.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel2.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel3.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/meshes/wheel4.STL
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/launch_sim.launch.py
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/launch/rsp.launch.py
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/ament_index/resource_index/package_run_dependencies/my_robot
+[0.319s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/ament_index/resource_index/parent_prefix_path/my_robot
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.sh
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/environment/ament_prefix_path.dsv
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/environment/path.sh
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/environment/path.dsv
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/local_setup.bash
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/local_setup.sh
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/local_setup.zsh
+[0.320s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/local_setup.dsv
+[0.321s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/package.dsv
+[0.330s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/ament_index/resource_index/packages/my_robot
+[0.330s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
+[0.331s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
+[0.331s] -- Up-to-date symlink: /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/package.xml
+[0.333s] Invoked command in '/home/naveengnanasekar/dev_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/my_robot

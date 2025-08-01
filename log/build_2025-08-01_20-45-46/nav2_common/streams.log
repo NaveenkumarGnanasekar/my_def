@@ -1,0 +1,62 @@
+[0.015s] Invoking command in '/home/naveengnanasekar/dev_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/nav2_common
+[0.032s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.191s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.271s] -- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.427s] -- Configuring done
+[0.430s] -- Generating done
+[0.432s] -- Build files have been written to: /home/naveengnanasekar/dev_ws/build/nav2_common
+[0.434s] Invoked command in '/home/naveengnanasekar/dev_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/nav2_common
+[0.435s] Invoking command in '/home/naveengnanasekar/dev_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/nav2_common -- -j8 -l8
+[0.492s] Built target ament_cmake_python_symlink_nav2_common
+[0.698s] running egg_info
+[0.699s] creating nav2_common.egg-info
+[0.699s] writing nav2_common.egg-info/PKG-INFO
+[0.699s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.699s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.700s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.702s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.703s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.741s] Built target ament_cmake_python_build_nav2_common_egg
+[0.752s] Invoked command in '/home/naveengnanasekar/dev_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naveengnanasekar/dev_ws/build/nav2_common -- -j8 -l8
+[0.753s] Invoking command in '/home/naveengnanasekar/dev_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/nav2_common
+[0.762s] -- Install configuration: ""
+[0.762s] -- Execute custom install script
+[0.762s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.772s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.781s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/PKG-INFO
+[0.790s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/SOURCES.txt
+[0.801s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/dependency_links.txt
+[0.810s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.18-py3.10.egg-info/top_level.txt
+[0.821s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.832s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.842s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.851s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.861s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.871s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.881s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.890s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.899s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.908s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.919s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.929s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.938s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.948s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.957s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.967s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.977s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.987s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.997s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.006s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.015s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.024s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/package.xml
+[1.034s] -- Symlinking: /home/naveengnanasekar/dev_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.076s] Listing '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.076s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[1.077s] Listing '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.077s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[1.077s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[1.077s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[1.077s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[1.077s] Compiling '/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[1.085s] Invoked command in '/home/naveengnanasekar/dev_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naveengnanasekar/dev_ws/build/nav2_common

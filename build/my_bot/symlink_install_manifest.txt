@@ -1,7 +1,6 @@
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
-/home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/meshes/base_link.STL
@@ -10,6 +9,7 @@
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/meshes/wheel2.STL
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/meshes/wheel3.STL
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/meshes/wheel4.STL
+/home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/naveengnanasekar/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/naveengnanasekar/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/naveengnanasekar/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh

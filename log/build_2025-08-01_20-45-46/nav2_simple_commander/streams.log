@@ -1,0 +1,42 @@
+[0.726s] Invoking command in '/home/naveengnanasekar/dev_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs:/home/naveengnanasekar/dev_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs:/home/naveengnanasekar/dev_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/naveengnanasekar/dev_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/build --no-deps symlink_data
+[0.987s] running develop
+[1.147s] running egg_info
+[1.147s] creating nav2_simple_commander.egg-info
+[1.147s] writing nav2_simple_commander.egg-info/PKG-INFO
+[1.147s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[1.147s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[1.148s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[1.148s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[1.148s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[1.151s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[1.151s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[1.153s] running build_ext
+[1.153s] Creating /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[1.154s] Installing demo_inspection script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.154s] Installing demo_picking script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing demo_recoveries script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing demo_security script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing example_assisted_teleop script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing example_follow_path script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing example_nav_through_poses script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing example_nav_to_pose script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] Installing example_waypoint_follower script to /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.155s] 
+[1.155s] Installed /home/naveengnanasekar/dev_ws/build/nav2_simple_commander
+[1.155s] running symlink_data
+[1.156s] creating /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/ament_index
+[1.156s] creating /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[1.156s] creating /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/resource/nav2_simple_commander -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/package.xml -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/warehouse.world -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/recoveries_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/nav_through_poses_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/assisted_teleop_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.156s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/picking_demo_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.157s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/nav_to_pose_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.157s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/follow_path_example_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.157s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/security_demo_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.157s] symbolically linking /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/launch/inspection_demo_launch.py -> /home/naveengnanasekar/dev_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.241s] Invoked command in '/home/naveengnanasekar/dev_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs:/home/naveengnanasekar/dev_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs:/home/naveengnanasekar/dev_ws/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/naveengnanasekar/dev_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/naveengnanasekar/dev_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/naveengnanasekar/dev_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/naveengnanasekar/dev_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/naveengnanasekar/dev_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/naveengnanasekar/dev_ws/build/nav2_simple_commander/build --no-deps symlink_data

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(my_bot)
+project(my_robot)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -39,6 +39,10 @@ install(
 )
 install(DIRECTORY meshes/
   DESTINATION share/${PROJECT_NAME}/meshes
+)
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 
