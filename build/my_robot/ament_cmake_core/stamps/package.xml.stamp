@@ -4,8 +4,8 @@
   <name>my_robot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="naveengnanasekar@todo.todo">naveengnanasekar</maintainer>
-  <license>Apache-2.0</license>
+  <maintainer email="naveengnanasekar64@email.com">naveenkumar</maintainer>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

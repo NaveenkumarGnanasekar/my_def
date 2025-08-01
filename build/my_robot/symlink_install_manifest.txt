@@ -13,3 +13,4 @@
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig.cmake
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/cmake/my_robotConfig-version.cmake
 /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/package.xml
+/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot//launch/rsp.launch.py
