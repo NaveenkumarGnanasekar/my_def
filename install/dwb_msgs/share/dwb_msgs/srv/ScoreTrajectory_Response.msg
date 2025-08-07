@@ -1,1 +1,0 @@
-/home/naveengnanasekar/dev_ws/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Response.msg

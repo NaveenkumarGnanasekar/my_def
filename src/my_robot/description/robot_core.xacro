@@ -1,20 +1,24 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="ieee">
   <link
     name="base_link">
     <inertial>
       <origin
-        xyz="0.23811 0.30189 0.57837"
+        xyz="0.25112 -0.57291 0.30187"
         rpy="0 0 0" />
       <mass
-        value="1.6794" />
+        value="1.633" />
       <inertia
-        ixx="0.0079838"
-        ixy="8.7189E-06"
-        ixz="-4.4353E-05"
-        iyy="0.015974"
-        iyz="-2.3556E-06"
-        izz="0.022945" />
+        ixx="0.0079465"
+        ixy="4.4353E-05"
+        ixz="8.7912E-06"
+        iyy="0.022836"
+        iyz="2.3556E-06"
+        izz="0.015937" />
     </inertial>
     <visual>
       <origin
@@ -27,7 +31,7 @@
       <material
         name="">
         <color
-          rgba="1 0.082353 0 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -41,20 +45,20 @@
     </collision>
   </link>
   <link
-    name="wheel1">
+    name="W1">
     <inertial>
       <origin
-        xyz="-0.0177039263600328 0.00801981738361954 -0.0194357011560703"
+        xyz="-6.66133814775094E-16 7.21644966006352E-16 -0.0252070209755648"
         rpy="0 0 0" />
       <mass
-        value="0.313742674369714" />
+        value="0.219478804012584" />
       <inertia
-        ixx="0.000100019282088185"
-        ixy="-3.9651023978688E-06"
-        ixz="9.60926434754045E-06"
-        iyy="9.30624074713768E-05"
-        iyz="-4.35296350035507E-06"
-        izz="0.000101815459754744" />
+        ixx="0.000194267977141188"
+        ixy="1.62630325872826E-19"
+        ixz="-1.3179284510751E-19"
+        iyy="0.000194267977141188"
+        iyz="-3.78873931579195E-21"
+        izz="0.000321855143610039" />
     </inertial>
     <visual>
       <origin
@@ -62,12 +66,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel1.STL" />
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -76,217 +80,38 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel1.STL" />
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W1.STL" />
       </geometry>
     </collision>
   </link>
   <joint
-    name="w_joint_1"
-    type="revolute">
+    name="JOINT_WHEEL_1"
+    type="continuous">
     <origin
-      xyz="0.052037 -0.41904 0.45638"
-      rpy="2.7502 0.69985 -1.5135" />
+      xyz="0.052037 -0.41904 0.088366"
+      rpy="3.1416 0 -0.81731" />
     <parent
       link="base_link" />
     <child
-      link="wheel1" />
-    <axis
-      xyz="0.6441 -0.29178 0.70711" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
-  </joint>
-  <link
-    name="wheel2">
-    <inertial>
-      <origin
-        xyz="1.38777878078145E-17 -3.33066907387547E-16 0.0274861360562049"
-        rpy="0 0 0" />
-      <mass
-        value="0.313742674369714" />
-      <inertia
-        ixx="9.12662298048282E-05"
-        ixy="-3.29019360449092E-19"
-        ixz="-2.13748764239623E-18"
-        iyy="9.12662298048309E-05"
-        iyz="5.65672424978063E-19"
-        izz="0.000112364689704675" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel2.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel2.STL" />
-      </geometry>
-    </collision>
-  </link>
-  <joint
-    name="w_joint_2"
-    type="revolute">
-    <origin
-      xyz="0.052037 -0.41904 0.091485"
-      rpy="0 0 0" />
-    <parent
-      link="base_link" />
-    <child
-      link="wheel2" />
-    <axis
-      xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
-  </joint>
-  <link
-    name="wheel3">
-    <inertial>
-      <origin
-        xyz="-2.77555756156289E-16 -1.66533453693773E-16 -0.0274862321691448"
-        rpy="0 0 0" />
-      <mass
-        value="0.313742674369715" />
-      <inertia
-        ixx="9.12662298048202E-05"
-        ixy="-1.56833444140054E-19"
-        ixz="-2.83332520856563E-19"
-        iyy="9.12662298048205E-05"
-        iyz="5.91506929869319E-19"
-        izz="0.000112364689704665" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel3.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel3.STL" />
-      </geometry>
-    </collision>
-  </link>
-  <joint
-    name="w_joint_3"
-    type="revolute">
-    <origin
-      xyz="0.44204 -0.41904 0.45638"
-      rpy="3.1416 0 0" />
-    <parent
-      link="base_link" />
-    <child
-      link="wheel3" />
-    <axis
-      xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
-  </joint>
-  <link
-    name="wheel4">
-    <inertial>
-      <origin
-        xyz="0 -1.66533453693773E-16 0.0274861360562048"
-        rpy="0 0 0" />
-      <mass
-        value="0.313742674369714" />
-      <inertia
-        ixx="9.12662298048153E-05"
-        ixy="-3.78345794736854E-19"
-        ixz="1.61592710512439E-18"
-        iyy="9.12662298048166E-05"
-        iyz="3.35912091057374E-18"
-        izz="0.000112364689704659" />
-    </inertial>
-    <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel4.STL" />
-      </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/wheel4.STL" />
-      </geometry>
-    </collision>
-  </link>
-  <joint
-    name="w_joint_4"
-    type="revolute">
-    <origin
-      xyz="0.44204 -0.41904 0.091485"
-      rpy="0 0 0" />
-    <parent
-      link="base_link" />
-    <child
-      link="wheel4" />
+      link="W1" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
   </joint>
   <link
-    name="turret">
+    name="W2">
     <inertial>
       <origin
-        xyz="0 0 0"
+        xyz="1.66533453693773E-16 1.11022302462516E-16 0.0247929790244354"
         rpy="0 0 0" />
       <mass
-        value="0.5" />
+        value="0.219478804012584" />
       <inertia
-        ixx="0.0"
-        ixy="0.0"
-        ixz="0.0"
-        iyy="0.0"
-        iyz="0"
-        izz="0.0" />
+        ixx="0.000194267977141189"
+        ixy="2.03287907341032E-19"
+        ixz="-6.07771461366044E-20"
+        iyy="0.000194267977141189"
+        iyz="-6.00962376213491E-20"
+        izz="0.00032185514361004" />
     </inertial>
     <visual>
       <origin
@@ -294,12 +119,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/turret.STL" />
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W2.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -307,27 +132,181 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/turret.STL"/>
-
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W2.STL" />
       </geometry>
     </collision>
   </link>
   <joint
-    name="turr_joint"
-    type="fixed">
+    name="JOINT_WHEEL_2"
+    type="continuous">
     <origin
-      xyz="0.23735 -0.74397 0.30328"
-      rpy="3.1416 0.013209 0" />
+      xyz="0.052037 -0.41904 0.46447"
+      rpy="0 0 -0.30077" />
     <parent
       link="base_link" />
     <child
-      link="turret" />
+      link="W2" />
     <axis
-      xyz="0 0 0" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="W3">
+    <inertial>
+      <origin
+        xyz="8.04911692853238E-15 -5.55111512312578E-15 -0.0252070209755648"
+        rpy="0 0 0" />
+      <mass
+        value="0.219478804012584" />
+      <inertia
+        ixx="0.000194267977141188"
+        ixy="2.60886147754325E-19"
+        ixz="3.45748612615907E-20"
+        iyy="0.000194267977141188"
+        iyz="2.48903131783379E-20"
+        izz="0.000321855143610039" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_WHEEL_3"
+    type="continuous">
+    <origin
+      xyz="0.44204 -0.41904 0.088366"
+      rpy="-3.1416 0 0.21133" />
+    <parent
+      link="base_link" />
+    <child
+      link="W3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W4">
+    <inertial>
+      <origin
+        xyz="-3.77475828372553E-15 -1.11022302462516E-16 0.0247929790244354"
+        rpy="0 0 0" />
+      <mass
+        value="0.219478804012583" />
+      <inertia
+        ixx="0.000194267977141188"
+        ixy="2.16840434497101E-19"
+        ixz="-7.34324717805692E-20"
+        iyy="0.000194267977141188"
+        iyz="3.68119439514205E-19"
+        izz="0.000321855143610039" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/W4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_WHEEL_4"
+    type="continuous">
+    <origin
+      xyz="0.442036837930346 -0.419041472656676 0.464466233783593"
+      rpy="0 0 0.439671762695337" />
+    <parent
+      link="base_link" />
+    <child
+      link="W4" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="TURRET">
+    <inertial>
+      <origin
+        xyz="-0.0243300190054064 0.105650153739771 0.0535030356360243"
+        rpy="0 0 0" />
+      <mass
+        value="0.41214867902266" />
+      <inertia
+        ixx="0.027672016842789"
+        ixy="3.51578669005408E-05"
+        ixz="-0.00275141652608014"
+        iyy="0.0462070777435252"
+        iyz="1.00478354123469E-05"
+        izz="0.0348017884824339" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/TURRET.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/naveengnanasekar/dev_ws/src/my_robot/meshes/TURRET.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TURRET"
+    type="continuous">
+    <origin
+      xyz="0.27248 -0.69627 0.29909"
+      rpy="3.1416 -0.31283 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="TURRET" />
+    <axis
+      xyz="0 1 0" />
   </joint>
 </robot>

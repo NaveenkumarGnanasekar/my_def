@@ -1,17 +1,26 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 	<gazebo>
-		<plugin name="my_robot" filename="libgazebo_ros_diff_drive.so" >
-            <left_joint>w_joint_1</left_joint>
-            <left_joint>w_joint_3</left_joint>
-            <right_joint>w_joint_2</right_joint>
-            <right_joint>w_joint_4</right_joint>
-            <wheel_separation>0.82</wheel_separation>
-            <wheel_diamenter>0.1</wheel_diamenter>
+		<plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so" >
+
+            <ros>
+                  <namespace>/</namespace>
+                  <remapping>cmd_vel:=/cmd_vel</remapping>
+            </ros>
+            <num_wheel_pairs>2</num_wheel_pairs>
+            
+                
+            <left_joint>JOINT_WHEEL_1</left_joint>
+            <left_joint>JOINT_WHEEL_3</left_joint>
+            <right_joint>JOINT_WHEEL_2</right_joint>
+            <right_joint>JOINT_WHEEL_4</right_joint>
+            <wheel_separation>0.60</wheel_separation>
+            <wheel_diameter>0.1</wheel_diameter>
 
 
-            <max_wheel_torque>200<max_wheel_torque>
-            <max_wheel_acceleration>10.0<max_wheel_acceleration>
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+           
 
             <odometry_frame>odom</odometry_frame>
             <robot_base_frame>base_link</robot_base_frame>
@@ -22,6 +31,11 @@
             <publish_wheel_tf>true</publish_wheel_tf>
 			
 		</plugin>
+            <plugin name="move_target" filename="libgazebo_ros_force_system.so">
+                  <body_name>TURRET</body_name>
+                  <reference_frame>world</reference_frame>
+                  <force>0 5 0</force>
+            </plugin>
 	</gazebo>
 
 

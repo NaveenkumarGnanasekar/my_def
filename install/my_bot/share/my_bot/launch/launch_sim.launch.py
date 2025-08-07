@@ -1,1 +1,0 @@
-/home/naveengnanasekar/dev_ws/src/my_robot/launch/launch_sim.launch.py

@@ -1,4 +1,0 @@
-[0.008s] Invoking command in '/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/install/my_bot
-[0.016s] [0mCMake Error: The source directory "/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot" does not appear to contain CMakeLists.txt.
-[0.016s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.019s] Invoked command in '/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/build/my_bot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot -DCMAKE_INSTALL_PREFIX=/home/naveengnanasekar/dev_ws/install/my_robot/share/my_robot/install/my_bot
