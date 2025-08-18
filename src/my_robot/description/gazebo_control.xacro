@@ -31,11 +31,7 @@
             <publish_wheel_tf>true</publish_wheel_tf>
 			
 		</plugin>
-            <plugin name="move_target" filename="libgazebo_ros_force_system.so">
-                  <body_name>TURRET</body_name>
-                  <reference_frame>world</reference_frame>
-                  <force>0 5 0</force>
-            </plugin>
+      
 	</gazebo>
 
 
